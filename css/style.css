@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: url("../assets/table.png");
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+h1 {
+  color: goldenrod;
+  margin: 10rem 0 2rem 0;
+  font-size: 5rem;
+}
+p {
+  color: #000;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+#message-el {
+  font-style: italic;
+}
+button {
+  display: block;
+  font: inherit;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  background: goldenrod;
+  color: green;
+  text-transform: uppercase;
+  padding: 0.5em;
+  width: 200px;
+  margin: 1em auto 0 auto;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(198, 151, 31);
+  transform: scale(1.1);
+}
