@@ -13,7 +13,7 @@ let isAlive = false;
 let message = "";
 
 let player = {
-  name: "Tim",
+  name: "Dagim",
   chips: 200,
 };
 

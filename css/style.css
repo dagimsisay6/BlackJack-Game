@@ -46,3 +46,9 @@ button:hover {
   background: rgb(198, 151, 31);
   transform: scale(1.1);
 }
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
